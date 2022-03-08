@@ -115,6 +115,10 @@ function App() {
             <ThemeContext.Provider value={dark}>
               {/* HOME AND ABOUT ROUTE */}
               <Route
+                path="/home"
+                children={<TopicCard questionData={questionData}></TopicCard>}
+              />
+              <Route
                 exact
                 path="/"
                 children={<TopicCard questionData={questionData}></TopicCard>}
@@ -225,7 +229,7 @@ function App() {
               <Route
                 path="/progress"
                 children={
-                  <Topic data={questionData[14]} updateData={updateData} />
+                  <Topic data={questionData[0]} updateData={updateData} />
                 }
               />
             </ThemeContext.Provider>
