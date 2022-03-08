@@ -115,7 +115,7 @@ function App() {
             <ThemeContext.Provider value={dark}>
               {/* HOME AND ABOUT ROUTE */}
               <Route
-                path="/home"
+                path="/progress"
                 children={<TopicCard questionData={questionData}></TopicCard>}
               />
               <Route
@@ -224,12 +224,6 @@ function App() {
                 path="/bit_manipulation"
                 children={
                   <Topic data={questionData[14]} updateData={updateData} />
-                }
-              />
-              <Route
-                path="/progress"
-                children={
-                  <Topic data={questionData[0]} updateData={updateData} />
                 }
               />
             </ThemeContext.Provider>
