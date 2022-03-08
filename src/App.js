@@ -102,7 +102,7 @@ function App() {
           className="app-heading text-center mt-5"
           style={{ color: dark ? "white" : "" }}
         >
-          450 DSA Cracker
+          Progress Tracker
         </h1>
 
         {questionData.length === 0 ? (
