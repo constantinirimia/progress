@@ -120,7 +120,7 @@ function App() {
               />
               <Route
                 exact
-                path="/"
+                path="/progress"
                 children={<TopicCard questionData={questionData}></TopicCard>}
               />
               <Route
