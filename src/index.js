@@ -9,7 +9,7 @@ import "./index.css";
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Route path="/" component={App}></Route>
+      <Route path="/progress" component={App}></Route>
     </Router>
   </React.StrictMode>,
   document.getElementById("root")

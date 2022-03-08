@@ -116,7 +116,7 @@ function App() {
               {/* HOME AND ABOUT ROUTE */}
               <Route
                 exact
-                path="/"
+                path="/progress"
                 children={<TopicCard questionData={questionData}></TopicCard>}
               />
               <Route
