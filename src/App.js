@@ -115,12 +115,8 @@ function App() {
             <ThemeContext.Provider value={dark}>
               {/* HOME AND ABOUT ROUTE */}
               <Route
-                path="/progress"
-                children={<TopicCard questionData={questionData}></TopicCard>}
-              />
-              <Route
                 exact
-                path="/progress"
+                path="/"
                 children={<TopicCard questionData={questionData}></TopicCard>}
               />
               <Route
@@ -224,6 +220,70 @@ function App() {
                 path="/bit_manipulation"
                 children={
                   <Topic data={questionData[14]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/two_pointers"
+                children={
+                  <Topic data={questionData[15]} updateData={updateData} />
+                }
+              />
+
+              <Route
+                path="/fast"
+                children={
+                  <Topic data={questionData[16]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/sliding_window"
+                children={
+                  <Topic data={questionData[17]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/bfs"
+                children={
+                  <Topic data={questionData[18]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/modified_binary_search"
+                children={
+                  <Topic data={questionData[19]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/topological_sort"
+                children={
+                  <Topic data={questionData[20]} updateData={updateData} />
+                }
+              />
+
+              <Route
+                path="/dfs"
+                children={
+                  <Topic data={questionData[21]} updateData={updateData} />
+                }
+              />
+
+              <Route
+                path="/intervals"
+                children={
+                  <Topic data={questionData[22]} updateData={updateData} />
+                }
+              />
+
+              <Route
+                path="/subsets"
+                children={
+                  <Topic data={questionData[23]} updateData={updateData} />
+                }
+              />
+              <Route
+                path="/top_k_elements"
+                children={
+                  <Topic data={questionData[24]} updateData={updateData} />
                 }
               />
             </ThemeContext.Provider>

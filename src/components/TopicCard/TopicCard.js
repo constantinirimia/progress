@@ -137,8 +137,8 @@ export default function TopicCard({ questionData }) {
   });
   return (
     <>
-      <h3 className="app-heading2 text-center mb-3">
-        Your Gateway to crack DSA{" "}
+      <h3 className="app-heading2 text-center mb-3" color="black">
+        Lets get this DONE{" "}
         <span role="img" aria-label="fire">
           🔥
         </span>
