@@ -253,37 +253,31 @@ function App() {
                   <Topic data={questionData[19]} updateData={updateData} />
                 }
               />
+
               <Route
-                path="/topological_sort"
+                path="/dfs"
                 children={
                   <Topic data={questionData[20]} updateData={updateData} />
                 }
               />
 
               <Route
-                path="/dfs"
+                path="/intervals"
                 children={
                   <Topic data={questionData[21]} updateData={updateData} />
                 }
               />
 
               <Route
-                path="/intervals"
-                children={
-                  <Topic data={questionData[22]} updateData={updateData} />
-                }
-              />
-
-              <Route
                 path="/subsets"
                 children={
-                  <Topic data={questionData[23]} updateData={updateData} />
+                  <Topic data={questionData[22]} updateData={updateData} />
                 }
               />
               <Route
                 path="/top_k_elements"
                 children={
-                  <Topic data={questionData[24]} updateData={updateData} />
+                  <Topic data={questionData[23]} updateData={updateData} />
                 }
               />
             </ThemeContext.Provider>

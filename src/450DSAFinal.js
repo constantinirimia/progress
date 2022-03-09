@@ -2961,7 +2961,7 @@ export default [
 
   {
     topicName: "DFS",
-    position: 21,
+    position: 20,
     started: false,
     doneQuestions: 0,
     questions: [
@@ -3018,7 +3018,7 @@ export default [
 
   {
     topicName: "Intervals",
-    position: 22,
+    position: 21,
     started: false,
     doneQuestions: 0,
     questions: [
@@ -3067,7 +3067,7 @@ export default [
 
   {
     topicName: "Subsets",
-    position: 23,
+    position: 22,
     started: false,
     doneQuestions: 0,
     questions: [
@@ -3133,7 +3133,7 @@ export default [
 
   {
     topicName: "Top K elements",
-    position: 24,
+    position: 23,
     started: false,
     doneQuestions: 0,
     questions: [
