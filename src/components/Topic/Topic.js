@@ -409,3 +409,26 @@ function RandomButton({ data }) {
     </Button>
   );
 }
+
+function RandomButton1({ data }) {
+  let min = 0;
+  let max = data.questions.length - 1;
+  const [rnd, setRnd] = useState(Math.floor(Math.random() * (max - min)) + min);
+  function pickRandomHandler() {
+    setRnd(Math.floor(Math.random() * (max - min)) + min);
+  }
+  return (
+    <Button
+      className="pick-random-btn"
+      onClick={pickRandomHandler}
+      variant="outline-primary"
+      href={data.questions[rnd].URL}
+      target="_blank"
+    >
+      lala{" "}
+      <span role="img" aria-label="woman-juggling-emoji" className="emojiFix">
+        🤹🏻‍♀️
+      </span>
+    </Button>
+  );
+}
